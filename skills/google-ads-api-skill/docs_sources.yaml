@@ -1,0 +1,50 @@
+# Canonical documentation sources (prefer official docs + official GitHub examples).
+# Keep these URLs current; the Skill will WebSearch/WebFetch as needed.
+
+google_ads_api:
+  release_notes:
+    url: "https://developers.google.com/google-ads/api/docs/release-notes"
+    purpose: "Determine latest stable API version; check breaking changes."
+  python_client_overview:
+    url: "https://developers.google.com/google-ads/api/docs/client-libs/python"
+    purpose: "Client library requirements, installation, quick validation steps."
+  python_configuration:
+    url: "https://developers.google.com/google-ads/api/docs/client-libs/python/configuration"
+    purpose: "google-ads.yaml fields, env var config, load_from_storage/load_from_env."
+  python_logging:
+    url: "https://developers.google.com/google-ads/api/docs/client-libs/python/logging"
+    purpose: "Enable request/response logging and troubleshooting."
+  python_field_masks:
+    url: "https://developers.google.com/google-ads/api/docs/client-libs/python/field-masks"
+    purpose: "Correct update_mask generation using protobuf_helpers.field_mask."
+  gaql_overview:
+    url: "https://developers.google.com/google-ads/api/docs/query/overview"
+    purpose: "GAQL basics, limitations, and patterns."
+  gaql_grammar:
+    url: "https://developers.google.com/google-ads/api/docs/query/grammar"
+    purpose: "Syntax rules and clause structure."
+  gaql_field_compatibility:
+    url: "https://developers.google.com/google-ads/api/docs/query/field-compatibility"
+    purpose: "Prevent GAQL INVALID_ARGUMENT due to incompatible fields."
+  common_errors:
+    url: "https://developers.google.com/google-ads/api/docs/common-errors"
+    purpose: "Top-level errors and how to fix them."
+  understand_errors:
+    url: "https://developers.google.com/google-ads/api/docs/error-codes/overview"
+    purpose: "Error types, debugging flow, request_id usage."
+  quotas:
+    url: "https://developers.google.com/google-ads/api/docs/best-practices/quotas"
+    purpose: "Quota categories, rate limiting guidance, backoff patterns."
+
+samples:
+  search_google_ads_fields:
+    url: "https://developers.google.com/google-ads/api/samples/search-for-google-ads-fields"
+    purpose: "Field metadata lookup patterns (GoogleAdsFieldService)."
+
+github:
+  google_ads_python_repo:
+    url: "https://github.com/googleads/google-ads-python"
+    purpose: "Up-to-date samples and idiomatic client usage."
+  examples_root:
+    url: "https://github.com/googleads/google-ads-python/tree/main/examples"
+    purpose: "Reference implementations by domain area."

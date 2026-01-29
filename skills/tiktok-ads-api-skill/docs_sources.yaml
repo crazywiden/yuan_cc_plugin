@@ -1,0 +1,79 @@
+# Canonical documentation sources (prefer official docs).
+# This skill uses direct HTTP requests - no SDK wrappers.
+# Keep these URLs current; the Skill will WebSearch/WebFetch as needed.
+
+tiktok_business_api:
+  portal:
+    url: "https://business-api.tiktok.com/portal"
+    purpose: "Main developer portal for TikTok Business API access."
+
+  docs_main:
+    url: "https://business-api.tiktok.com/portal/docs"
+    purpose: "Official API documentation, guides, and reference."
+
+  authentication:
+    url: "https://business-api.tiktok.com/portal/docs?id=1738373164380162"
+    purpose: "OAuth2 authentication flow, access token generation."
+
+  campaign_management:
+    url: "https://business-api.tiktok.com/portal/docs?id=1739318962329602"
+    purpose: "Campaign CRUD operations, objective types, budget configuration."
+
+  ad_group_management:
+    url: "https://business-api.tiktok.com/portal/docs?id=1739499616346114"
+    purpose: "Ad group operations, targeting, placements, bidding."
+
+  ad_management:
+    url: "https://business-api.tiktok.com/portal/docs?id=1739953377218561"
+    purpose: "Ad CRUD operations, creative linkage."
+
+  reporting:
+    url: "https://business-api.tiktok.com/portal/docs?id=1738864928947201"
+    purpose: "Synchronous and asynchronous reporting API."
+
+  creative_assets:
+    url: "https://business-api.tiktok.com/portal/docs?id=1737172488964097"
+    purpose: "Image, video, and music upload endpoints."
+
+  audience_management:
+    url: "https://business-api.tiktok.com/portal/docs?id=1739940680976385"
+    purpose: "Custom audiences, lookalike audiences, DMP integration."
+
+  error_codes:
+    url: "https://business-api.tiktok.com/portal/docs?id=1737172014186497"
+    purpose: "Error code reference and troubleshooting guidance."
+
+  rate_limits:
+    url: "https://developers.tiktok.com/doc/tiktok-api-v2-rate-limit"
+    purpose: "Rate limiting policies, quotas, and best practices."
+
+developer_resources:
+  developer_portal:
+    url: "https://developers.tiktok.com/"
+    purpose: "TikTok developer homepage, app registration."
+
+  error_handling:
+    url: "https://developers.tiktok.com/doc/tiktok-api-v2-error-handling"
+    purpose: "Error handling patterns and log ID usage."
+
+  tiktok_ads_help:
+    url: "https://ads.tiktok.com/help/article/marketing-api"
+    purpose: "Marketing API overview and use cases."
+
+  metrics_reference:
+    url: "https://ads.tiktok.com/help/article/all-metrics"
+    purpose: "Complete list of reporting metrics and their definitions."
+
+samples_and_tutorials:
+  kitchn_tutorial:
+    url: "https://www.kitchn.io/blog/tiktok-ads-api-introduction"
+    purpose: "Comprehensive tutorial on TikTok Ads API reporting and ad management."
+
+  tabcut_tutorial:
+    url: "https://www.tabcut.com/blog/post/tiktok-ads-api-tutorial-fetching-campaigns-data"
+    purpose: "Tutorial on fetching campaigns data with Python."
+
+third_party_tools:
+  supermetrics_fields:
+    url: "https://docs.supermetrics.com/docs/tiktok-ads-fields"
+    purpose: "Reference for available TikTok Ads metrics and dimensions."

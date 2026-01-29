@@ -1,0 +1,16 @@
+{
+  "name": "yuan-cc-plugin",
+  "description": "Custom Claude Code skills, agents, and commands for ads API development, brainstorming, and productivity",
+  "version": "1.0.0",
+  "author": {
+    "name": "widen"
+  },
+  "license": "MIT",
+  "keywords": [
+    "google-ads",
+    "tiktok-ads",
+    "brainstorming",
+    "productivity",
+    "devops"
+  ]
+}
