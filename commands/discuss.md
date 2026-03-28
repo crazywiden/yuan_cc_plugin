@@ -1,3 +1,8 @@
+---
+name: discuss
+description: Thorough technical discussion with focused question batches before implementation
+---
+
 I want to have a thorough technical discussion about: $ARGUMENTS
 
 Use ultrathink mode to finish all the steps below. 

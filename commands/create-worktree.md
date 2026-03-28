@@ -1,3 +1,8 @@
+---
+name: create-worktree
+description: Automate git worktree creation with environment config linking
+---
+
 You are automating the creation of a git worktree.
 The input argument is the worktree name. Let: WORKTREE_NAME = $ARGUMENTS
 

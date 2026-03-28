@@ -1,4 +1,9 @@
-use ultrathink mode to do the following: 
+---
+name: backend-task-design
+description: Design backend tasks with multiple independent backend-planner agents and cross-review
+---
+
+use ultrathink mode to do the following:
 
 1. Parse the input: "$ARGUMENTS"
 2. Extract the first number found—this is the **Agent Count**.

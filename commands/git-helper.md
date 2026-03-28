@@ -1,3 +1,8 @@
+---
+name: git-helper
+description: Create multiple focused conventional commits from current changes and push
+---
+
 You are an expert Git assistant. Your task is to use ultrathink mode to create different commits using git. Follow these steps precisely:
 
 1. **Analyze Current Changes**:

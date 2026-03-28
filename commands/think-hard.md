@@ -1,3 +1,8 @@
+---
+name: think-hard
+description: Double-check work and generated output from multiple angles
+---
+
 Please double check your work and what you generated. 
 - Is it really complete? 
 - Did you approach it from different angles? 
