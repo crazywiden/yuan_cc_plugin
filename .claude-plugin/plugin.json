@@ -3,8 +3,10 @@
   "description": "Custom Claude Code skills, agents, and commands for ads API development, brainstorming, and productivity",
   "version": "1.0.0",
   "author": {
-    "name": "widen"
+    "name": "crazywiden",
+    "url": "https://github.com/crazywiden"
   },
+  "repository": "https://github.com/crazywiden/yuan_cc_plugin",
   "license": "MIT",
   "keywords": [
     "google-ads",
