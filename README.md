@@ -13,6 +13,7 @@ A collection of custom Claude Code skills, agents, and commands for ads API deve
 - **lead-research-assistant** - Identify high-quality leads
 - **startup-deep-dive** - Deep analysis of startup companies
 - **writing-skills** - Create and edit Claude Code skills
+- **agent-loop-design** - Decide when to fold subagents into one main agent loop
 
 ### Agents
 - **backend-planner** - Principal Backend Architect for repo-aligned designs
