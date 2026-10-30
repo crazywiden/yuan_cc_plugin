@@ -1,0 +1,17 @@
+{
+  "name": "yuan_cc_plugin",
+  "owner": {
+    "name": "crazywiden",
+    "url": "https://github.com/crazywiden"
+  },
+  "metadata": {
+    "description": "Yuan's collection of Claude Code skills, agents, and commands"
+  },
+  "plugins": [
+    {
+      "name": "yuan-cc-plugin",
+      "source": "./",
+      "description": "Custom Claude Code skills, agents, and commands for ads API development, brainstorming, and productivity"
+    }
+  ]
+}
